@@ -225,7 +225,7 @@ def depart_todo_node(self, node):
 def latex_visit_todo_node(self, node):
     
     title = node.pop(0).astext().translate(tex_escape_map)
-    self.body.append(u'\n\\begin{professor}{')
+    self.body.append(u'\n\\begin{paraoprofessor}{')
 
     target = node.get('targetref')
     if target is not None:
@@ -234,7 +234,7 @@ def latex_visit_todo_node(self, node):
 
 
 def latex_depart_todo_node(self, node):
-    self.body.append('\\end{professor}\n')
+    self.body.append('\\end{paraoprofessor}\n')
 
 def setup(app):
 
