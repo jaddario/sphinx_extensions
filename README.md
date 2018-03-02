@@ -16,7 +16,7 @@ Como utlizar as extensões?
 		...
 	]
 
-# Modo de usar o ambientes_admonition
+## Modo de usar o ambientes_admonition
 A extensão compreende os seguintes ambientes (em parentesis, as respectivas diretivas): 
 * Para o professor(paraoprofessor), 
 * Atividade(atividade),
@@ -29,10 +29,10 @@ A extensão compreende os seguintes ambientes (em parentesis, as respectivas dir
 
 Para criar qualquer nota, utilizamos a diretiva como um admonition (atentando-se para a identação).
 ex:
->.. paraoprofessor::
->   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
->   ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco 
->   laboris nisi ut aliquip ex.
+	.. paraoprofessor::
+	   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+	   ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco 
+	   laboris nisi ut aliquip ex.
 
 Isso criará a saída no html abaixo:
 
